@@ -54,4 +54,4 @@ weblate-fedora-messaging==0.4
 weblate-language-data==2022.7
 wheel==0.37.1
 wllegal==2021.7
-zeep==4.1.0
+zeep==4.2.0
