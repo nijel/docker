@@ -55,6 +55,7 @@ RUN \
   && apt-get update \
   && apt-get install --no-install-recommends -y \
     nginx \
+    logrotate \
     bundler \
     ruby-dev \
     cmake \
