@@ -54,6 +54,7 @@ COPY --link requirements.txt patches /app/src/
 # hadolint ignore=DL3008,DL3013,SC2046,DL3003
 RUN \
   export DEBIAN_FRONTEND=noninteractive \
+  export RUST_LOG=trace \
   && apt-get update \
   && apt-get install --no-install-recommends -y \
     nginx-light \
